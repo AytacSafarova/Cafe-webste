@@ -35,14 +35,19 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-row-gap: 40px;
         width: 100%;
+
         li {
             height: 385px;
             fill: linear-gradient(180deg, rgba(255, 255, 255, 0.40) 0%, rgba(255, 255, 255, 0.70) 100%);
             backdrop-filter: blur(2px);
-position: relative;
+            position: relative;
             display: flex;
             flex-direction: column;
             align-items: center;
+
+            // &:hover {
+            // top: -10px;
+            // }
 
             .rating-div {
                 position: absolute;
@@ -165,4 +170,7 @@ position: relative;
            }
          } */
     }
+}
+.hover{
+    top: -10px;
 }

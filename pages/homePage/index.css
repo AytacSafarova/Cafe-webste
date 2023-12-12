@@ -31,7 +31,8 @@
   padding: 15px 25px;
   border-radius: 42px;
   background: linear-gradient(93deg, rgba(255, 255, 255, 0.4) 0.82%, rgba(255, 255, 255, 0.7) 96.47%);
-  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   background: #fff;
 }
 .container-1 .img-box .cappuccino p {
@@ -54,7 +55,8 @@
   align-items: center;
   border-radius: 62px;
   background: var(--glass, linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.4) 100%));
-  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
   background: #fff;
 }
 .container-1 .img-box .star p {
@@ -151,4 +153,4 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-}
+}/*# sourceMappingURL=index.css.map */
