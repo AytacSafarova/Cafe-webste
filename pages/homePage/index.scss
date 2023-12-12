@@ -1,0 +1,195 @@
+.container-1 {
+  width: 100%;
+  min-height: 100vh;
+  background: #f6ebda;
+  padding: 41px 0 0 135px;
+  position: relative;
+
+  .img-box {
+    width: 50%;
+
+    .img-hero {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    .img-ellipse {
+      position: relative;
+      width: 416px;
+      height: 416px;
+    }
+
+    .img-cofe {
+      position: absolute;
+      top: 175px;
+      right: 140px;
+    }
+
+    .cappuccino {
+      position: absolute;
+      top: 182px;
+      right: 366px;
+      width: 271px;
+      padding: 15px 25px;
+      border-radius: 42px;
+      background: linear-gradient(
+        93deg,
+        rgba(255, 255, 255, 0.4) 0.82%,
+        rgba(255, 255, 255, 0.7) 96.47%
+      );
+      backdrop-filter: blur(2px);
+      background: #fff;
+
+      p {
+        color: var(--Secondary, #2f2105);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+
+    .star {
+      position: absolute;
+      top: 246px;
+      right: 122px;
+      width: 133.482px;
+      padding: 15px 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 62px;
+      background: var(
+        --glass,
+        linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.7) 0%,
+          rgba(255, 255, 255, 0.4) 100%
+        )
+      );
+      backdrop-filter: blur(2px);
+      background: #fff;
+
+      p {
+        color: var(--Secondary, #2f2105);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.96px;
+      }
+    }
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+
+    svg {
+      margin-right: 269px;
+    }
+
+    ul {
+      width: 350px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 32px;
+      li {
+        list-style-type: none;
+
+        a {
+          color: #000;
+          font-family: Poppins;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+    }
+  }
+
+  main {
+    margin-top: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left-box {
+      //   width: 50%;
+
+      h1 {
+        // width: 40%;
+        color: var(--Secondary, #2f2105);
+        font-family: Poppins;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      p {
+        margin-top: 24px;
+        // width: 30%;
+        color: var(--light, #7e7d7a);
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .btns {
+        display: flex;
+        // justify-content: space-between;
+        // align-items: center;
+        .order-btn {
+          margin-top: 32px;
+          padding: 12px 32px;
+          border-radius: 33px;
+          background: var(--Secondary, #2f2105);
+          box-shadow: 0px 4px 32px 0px rgba(223, 195, 124, 0.25);
+          display: flex;
+          align-items: center;
+          gap: 15px;
+
+          a {
+            color: #fff;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+          }
+        }
+
+        .menu-btn {
+          border-radius: 33px;
+          padding: 12px 32px;
+          display: flex;
+          align-items: center;
+
+          a {
+            color: #f4ae26;
+            // text-align: center;
+            font-family: Poppins;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+          }
+        }
+      }
+    }
+
+    
+  }
+}
