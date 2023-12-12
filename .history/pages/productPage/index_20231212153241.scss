@@ -132,12 +132,12 @@ position: relative;
                 }
             }
 
-            /* &:nth-child(1){
+            &:nth-child(1){
                 background-color: #FF902B;
-            } */
+            }
         }
 
-        /* li:nth-child(3) {
+        li:nth-child(3) {
             background-color: green;
             .li-text {
                 .left {
@@ -163,6 +163,6 @@ position: relative;
                   margin-right: 22px;
             }
            }
-         } */
+         }
     }
 }

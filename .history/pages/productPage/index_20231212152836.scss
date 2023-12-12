@@ -131,14 +131,10 @@ position: relative;
                     }
                 }
             }
-
-            /* &:nth-child(1){
-                background-color: #FF902B;
-            } */
         }
 
-        /* li:nth-child(3) {
-            background-color: green;
+        li:nth-child(3) {
+            background-color: #FF902B;
             .li-text {
                 .left {
                     margin-right: 22px;
@@ -155,14 +151,13 @@ position: relative;
             }
         }
 
-         &:nth-child(3){
-            background-color: aqua;
-            .li-text{
-                .left{
-                     background-color: #FF902B;
-                  margin-right: 22px;
-            }
-           }
-         } */
+        // &:nth-child(3){
+        //     .li-text{
+        //         .left{
+        //             background-color: #FF902B;
+        //             margin-right: 22px;
+        //         }
+        //     }
+        // }
     }
 }
