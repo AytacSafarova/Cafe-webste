@@ -147,6 +147,6 @@
   letter-spacing: 0.96px;
 }
 
-.hover {
-  top: -10px;
+.hover p {
+  display: none;
 }/*# sourceMappingURL=index.css.map */
