@@ -128,6 +128,7 @@
   letter-spacing: 0.96px;
 }
 .all ul li .li-text .left p {
+  display: none;
   color: var(--light, #7E7D7A);
   font-family: Poppins;
   font-size: 14px;
@@ -147,6 +148,6 @@
   letter-spacing: 0.96px;
 }
 
-.hover p {
-  display: none;
+.hover {
+  display: block;
 }/*# sourceMappingURL=index.css.map */
