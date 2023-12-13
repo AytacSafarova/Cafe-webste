@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container-1">
+    <div class="container">
         <nav>
             <svg xmlns="http://www.w3.org/2000/svg" width="150" height="30" viewBox="0 0 150 30" fill="none">
                 <path d="M46 1.5C46 7.46737 44 13.5 41 17.4099C37 21.5 37 24 25.5222 24C14.0444 24 14 22.1151 9.61232 17.4099C5.22463 12.7047 5 7.96737 5 2H9C9 10.5 12.4388 14.5834 12.4388 14.5834C12.4388 14.5834 15.5222 20.0027 25.5222 20.0027C35.5222 20.0027 38 14.5834 38 14.5834C38 14.5834 41.4321 8.5 41.4321 1.5H46Z" fill="#2F2105"/>
@@ -34,55 +34,108 @@
               </ul>
         </nav>
 
-
-
-
-        <main>
-            <div class="left-box">
-                <h1>Enjoy your coffee before your activity</h1>
+        <header>
+                <h1>Enjoy your coffee 
+                   before your activity</h1>
 
                 <p>Boost your productivity and build your mood with a glass of coffee in the morning </p>
         
                 <div class="btns">
                     <button class="order-btn">
-                        <a href="#">Order now</a>
-        
-        
-                        <img src="./images/basket.png" alt="">
+                        Order now
+                       
+                        <img class="basket-img" src="./images/basket.png" alt="">
                     </button>
         
                     <button class="menu-btn">
-                        <a href="#">More menu</a>
+                        More menu
                     </button>
                 </div>
-                
+            
+        </header>
+
+        <div class="img-box">
+            <!-- <img class="img-ellipse" src="./images/Ellipse.png" alt=""> -->
+            <img class="img-cofe" src="./images/cofe.png" alt="">
+            <img class="img-hero" src="./images/bg_img_hero.svg" alt="">
+
+            <div class="cappuccino">
+                <p>Cappuccino</p>
             </div>
 
-            <div class="img-box">
-                <img class="img-ellipse" src="./images/Ellipse.png" alt="">
-                <img class="img-cofe" src="./images/cofe.png" alt="">
-                <img class="img-hero" src="./images/bg_img_hero.svg" alt="">
-
-                <div class="cappuccino">
-                    <p>Cappuccino</p>
-                </div>
-
-                <div class="star">
-                    <p>4.8</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                        <path d="M11.4269 2.63301C11.7469 1.78901 12.9579 1.78901 13.2789 2.63301L15.3489 8.36701C15.4212 8.5538 15.5483 8.71429 15.7136 8.8273C15.879 8.94032 16.0747 9.00054 16.2749 9.00001H21.3619C22.3019 9.00001 22.7119 10.17 21.9729 10.743L18.3529 14C18.1908 14.1247 18.0723 14.2975 18.0144 14.4937C17.9566 14.6898 17.9624 14.8993 18.0309 15.092L19.3529 20.695C19.6749 21.595 18.6329 22.368 17.8449 21.814L12.9279 18.694C12.7596 18.5757 12.5588 18.5122 12.3529 18.5122C12.1471 18.5122 11.9463 18.5757 11.7779 18.694L6.86094 21.814C6.07394 22.368 5.03094 21.594 5.35294 20.695L6.67494 15.092C6.74352 14.8993 6.7493 14.6898 6.69145 14.4937C6.6336 14.2975 6.5151 14.1247 6.35294 14L2.73294 10.743C1.99294 10.17 2.40494 9.00001 3.34294 9.00001H8.42994C8.63024 9.00068 8.82601 8.94051 8.99136 8.82748C9.15671 8.71445 9.28385 8.55388 9.35594 8.36701L11.4259 2.63301H11.4269Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </div>
-
-                
+            <div class="star">
+                <p>4.8</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                    <path d="M11.4269 2.63301C11.7469 1.78901 12.9579 1.78901 13.2789 2.63301L15.3489 8.36701C15.4212 8.5538 15.5483 8.71429 15.7136 8.8273C15.879 8.94032 16.0747 9.00054 16.2749 9.00001H21.3619C22.3019 9.00001 22.7119 10.17 21.9729 10.743L18.3529 14C18.1908 14.1247 18.0723 14.2975 18.0144 14.4937C17.9566 14.6898 17.9624 14.8993 18.0309 15.092L19.3529 20.695C19.6749 21.595 18.6329 22.368 17.8449 21.814L12.9279 18.694C12.7596 18.5757 12.5588 18.5122 12.3529 18.5122C12.1471 18.5122 11.9463 18.5757 11.7779 18.694L6.86094 21.814C6.07394 22.368 5.03094 21.594 5.35294 20.695L6.67494 15.092C6.74352 14.8993 6.7493 14.6898 6.69145 14.4937C6.6336 14.2975 6.5151 14.1247 6.35294 14L2.73294 10.743C1.99294 10.17 2.40494 9.00001 3.34294 9.00001H8.42994C8.63024 9.00068 8.82601 8.94051 8.99136 8.82748C9.15671 8.71445 9.28385 8.55388 9.35594 8.36701L11.4259 2.63301H11.4269Z" fill="#FFD057" stroke="#FFD057" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
             </div>
 
-            <div class="right-box">
-                
-            </div>
-           
-        </main>
+            
+        </div>
+    </div>
+        <footer>
+            <h1>How to use delivery service</h1>
+
+            <ul>
+                <li>
+                    <img src="./images/coffee-cup 1.png" alt="">
+                    <h2>choose your coffee</h2>
+                    <p>there are 20+ coffees for you</p>
+                </li>
+
+                <li>
+                    <img src="./images/food-truck 1.png" alt="">
+                    <h2>we delivery it to you</h2>
+                    <p>Choose delivery service</p>
+                </li>
+
+                <li>
+                    <img src="./images/coffee-cup 1.png" alt="">
+                    <h2>Enjoy your coffee</h2>
+                    <p>Choose delivery service</p>
+                </li>
+            </ul>
+        </footer>
+
+        <div class="center-ul">
+            <ul>
+                <li>
+                    <img src="./images/photo-li1.png" alt="">
+                    <div class="info-coffee">
+                        <h2>Vanilla Latte</h2>
+                        <span>21 K</span>
+                    </div>
+                    
+                </li>
+
+
+                <li>
+                    <img src="./images/photo-li2.png" alt="">
+                    <div class="info-coffee">
+                        <h2>Vanilla Latte</h2>
+                        <span>21 K</span>
+                    </div>
+                    
+                </li>
+
+
+                <li>
+                    <img src="./images/photo-li3.png" alt="">
+                    <div class="info-coffee">
+                        <h2>Vanilla Latte</h2>
+                        <span>21 K</span>
+                    </div>
+                    
+                </li>
+            </ul>
+        </div>
     </div>
 
+
+    
+           
+
+
 </body>
+<script src="./index.js"></script>
 </html>
