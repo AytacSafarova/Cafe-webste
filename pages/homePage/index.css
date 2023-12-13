@@ -1,29 +1,30 @@
-.container-1 {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.container {
   width: 100%;
   min-height: 100vh;
   background: #f6ebda;
   padding: 41px 0 0 135px;
   position: relative;
 }
-.container-1 nav {
+.container nav {
   display: flex;
   align-items: center;
   position: fixed;
 }
-.container-1 nav svg {
+.container nav svg {
   margin-right: 269px;
 }
-.container-1 nav ul {
+.container nav ul {
   width: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 32px;
 }
-.container-1 nav ul li {
+.container nav ul li {
   list-style-type: none;
 }
-.container-1 nav ul li a {
+.container nav ul li a {
   color: #000;
   font-family: Poppins;
   font-size: 18px;
@@ -31,25 +32,25 @@
   font-weight: 400;
   line-height: normal;
 }
-.container-1 .img-box {
+.container .img-box {
   width: 50%;
 }
-.container-1 .img-box .img-hero {
+.container .img-box .img-hero {
   position: absolute;
   top: 0;
   right: 0;
 }
-.container-1 .img-box .img-ellipse {
+.container .img-box .img-ellipse {
   position: relative;
   width: 416px;
   height: 416px;
 }
-.container-1 .img-box .img-cofe {
+.container .img-box .img-cofe {
   position: absolute;
   top: 175px;
   right: 140px;
 }
-.container-1 .img-box .cappuccino {
+.container .img-box .cappuccino {
   position: absolute;
   top: 182px;
   right: 366px;
@@ -61,7 +62,7 @@
           backdrop-filter: blur(2px);
   background: #fff;
 }
-.container-1 .img-box .cappuccino p {
+.container .img-box .cappuccino p {
   color: var(--Secondary, #2f2105);
   text-align: center;
   font-family: Poppins;
@@ -70,7 +71,7 @@
   font-weight: 600;
   line-height: normal;
 }
-.container-1 .img-box .star {
+.container .img-box .star {
   position: absolute;
   top: 246px;
   right: 122px;
@@ -85,7 +86,7 @@
           backdrop-filter: blur(2px);
   background: #fff;
 }
-.container-1 .img-box .star p {
+.container .img-box .star p {
   color: var(--Secondary, #2f2105);
   text-align: center;
   font-family: Poppins;
@@ -95,13 +96,13 @@
   line-height: normal;
   letter-spacing: 0.96px;
 }
-.container-1 header {
+.container header {
   margin-top: 145px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.container-1 header h1 {
+.container header h1 {
   width: 40%;
   color: var(--Secondary, #2f2105);
   font-family: Poppins;
@@ -110,7 +111,7 @@
   font-weight: 600;
   line-height: normal;
 }
-.container-1 header p {
+.container header p {
   margin-top: 24px;
   width: 30%;
   color: var(--light, #7e7d7a);
@@ -120,11 +121,11 @@
   font-weight: 400;
   line-height: normal;
 }
-.container-1 header .btns {
+.container header .btns {
   display: flex;
   margin-top: 32px;
 }
-.container-1 header .btns .order-btn {
+.container header .btns .order-btn {
   padding: 12px 32px;
   border-radius: 33px;
   background: var(--Secondary, #2f2105);
@@ -141,7 +142,7 @@
   line-height: normal;
   cursor: pointer;
 }
-.container-1 header .btns .menu-btn {
+.container header .btns .menu-btn {
   border-radius: 33px;
   padding: 12px 32px;
   display: flex;
