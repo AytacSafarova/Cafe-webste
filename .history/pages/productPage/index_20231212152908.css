@@ -33,8 +33,7 @@
 .all ul li {
   height: 385px;
   fill: linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.7) 100%);
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -51,8 +50,7 @@
   height: 34px;
   border-radius: 27px;
   background: var(--glass, linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.4) 100%));
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
 }
 .all ul li .rating-div .rating-div-2 {
   display: flex;
@@ -127,4 +125,4 @@
 }
 .all ul li:nth-child(6) .li-text .left {
   margin-right: 22px;
-}/*# sourceMappingURL=index_20231212152908.css.map */
+}

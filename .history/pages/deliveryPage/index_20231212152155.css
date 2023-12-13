@@ -37,16 +37,6 @@
   border-radius: 42px;
   background: #fff;
 }
-.container .delivery-img form input ::-moz-placeholder {
-  color: var(--light, #7e7d7a);
-  text-align: center;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 0.64px;
-}
 .container .delivery-img form input ::placeholder {
   color: var(--light, #7e7d7a);
   text-align: center;
@@ -74,4 +64,4 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-}/*# sourceMappingURL=index_20231212152155.css.map */
+}
